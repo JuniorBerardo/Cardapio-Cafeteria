@@ -1,0 +1,96 @@
+:root{
+    --cor-primaria:#f6f6f6;
+    --cor-secundaria:#000000;
+    --cor-terciaria:silver;
+    --fonte-primaria: 'Arial, sans-serif';
+    --fonte-secundaria: 'Times New Roman', Times, serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-primaria);
+    background-image: url('receitas/bebidas/imagemdefundocafé.webp'); 
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: left;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+.menu-container {
+    color: var(--cor-primaria);
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: var(--fonte-secundaria);
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font: size 2.25em;;
+    color: white;
+}
+
+h2 {
+    font-family: var(--fonte-primaria);
+    font-size: 2rem;
+    margin-top: 40px;
+    color: white;
+    text-align: left;
+}
+
+th {
+    text-align: left;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    padding: 5px;
+}
+
+p{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    padding: auto;
+}
+
+.content {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button-return{
+    text-decoration: none;
+    color:  var(--cor-primaria);
+    background-color:var(--cor-secundaria); 
+    padding: 10px 20px;
+    border: none;
+     font-size: 1.125rem;
+    display: inline-block; 
+    margin-top: 30px; 
+}
+
+.button-return:hover {
+    background-color: var(--cor-terciaria); 
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.drink-image {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
